@@ -42,11 +42,14 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 30px;
+.Section-1 p {
+    font-size: x-large;
     text-align: center;
-    width: 75%;
+    padding-top: 25px;
+    font-weight: bold;
 }
+
+
 
 .hero {
     height: 300px;
@@ -72,9 +75,8 @@ p {
 .content {
     width: 75%;
     display: inline-block;
-    float: right;
     margin-right: 50px;
-    
+    float: right;
 }
 
 .About-me {
@@ -82,8 +84,13 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #81898f;
     color: #ffffff;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
 }
 
 .box {
@@ -98,12 +105,40 @@ p {
     font-size: 65px;
 }
 
+.box2 {
+    float: left;
+    height: 300px;
+    width: 275px;
+    margin-left: 25px;
+    padding-right: 55px;
+    color: white;
+    border-right: white solid 7.5px;
+    text-align: right;
+    font-size: 65px;
+    margin-top: 20px;
+}
+
+.box3 {
+    float: left;
+    height: 300px;
+    width: 275px;
+    margin-left: 25px;
+    padding-right: 55px;
+    color: white;
+    border-right: white solid 7.5px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #81898f;
     color: #ffffff;
 }
 
@@ -112,7 +147,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #81898f;
     color: #ffffff;
 }
 
