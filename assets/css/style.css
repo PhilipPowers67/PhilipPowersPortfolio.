@@ -62,13 +62,6 @@ header ul li a:hover {
     font-weight: bold;
 }
 
-.Section-2 p {
-    font-size: x-large;
-    text-align: center;
-    padding-top: 25px;
-    font-weight: bold;
-}
-
 
 
 .hero {
@@ -172,10 +165,17 @@ header ul li a:hover {
     justify-content: space-evenly;
 }
 
-#Contact-me {
+.Contact-Me h2 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#Contact-me img {
     height: 200px;
     width: 200px;
 }
+
+
 
 .LinkedIn:hover {
     background-color: white;
@@ -211,7 +211,11 @@ header ul li a:hover {
 
 .My-Work img {
     max-height: 200px;
+    opacity: 50%;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
 }
+
 
 .Contact-Me img {
     max-height: 200px;
