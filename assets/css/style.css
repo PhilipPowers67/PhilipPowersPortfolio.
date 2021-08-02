@@ -172,17 +172,38 @@ header ul li a:hover {
     justify-content: space-evenly;
 }
 
-#Linked-in {
-    background-image: url();
+#Contact-me {
     height: 200px;
     width: 200px;
 }
 
-#Linked-In:hover {
+.LinkedIn:hover {
     background-color: white;
     opacity: 50%;
 }
-    
+
+.LinkedIn {
+    margin: 100px;
+}
+
+.GitHub:hover {
+    background-color: white;
+    opacity: 50%;
+}
+
+.Github {
+    margin: 100px;
+}
+
+.Phone {
+    float: left;
+}
+
+.Phone:hover {
+    opacity: 10%;
+    float: left;
+}
+
 
 .About-me img {
     max-height: 200px;
