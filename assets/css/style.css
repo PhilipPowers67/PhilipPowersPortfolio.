@@ -55,6 +55,12 @@ header ul li a:hover {
     border-radius: 10px 10px 10px 10px;
 }
 
+.content {
+    width: 75%;
+    margin-right: 50px;
+    float: right;
+}
+
 .Section-1 p {
     font-size: x-large;
     text-align: center;
@@ -85,11 +91,7 @@ header ul li a:hover {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    margin-right: 50px;
-    float: right;
-}
+
 
 .About-me {
     margin-bottom: 20px;
