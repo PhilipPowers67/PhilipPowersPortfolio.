@@ -17,15 +17,12 @@ header {
 }
 
 h1 {
-    display: block;
+    display:inline-block;
     text-align: right;
     width: 25%;
     font-size: 48px;
     background-color: #81898f;
 }
-
-
-
 
 header div {
     padding-top: 15px;
@@ -69,8 +66,6 @@ header ul li a:hover {
     font-weight: bold;
 }
 
-
-
 .hero {
     height: 300px;
     width: 100%;
@@ -79,8 +74,6 @@ header ul li a:hover {
     background-size: cover;
     background-position: center;
 }
-
-
 
 .float-left {
     float: left;
@@ -91,8 +84,6 @@ header ul li a:hover {
     float: right;
     margin-left: 25px;
 }
-
-
 
 .About-me {
     margin-bottom: 20px;
@@ -150,8 +141,6 @@ header ul li a:hover {
     margin-top: 20px;
 }
 
-
-
 .My-Work {
     margin-bottom: 20px;
     padding: 50px;
@@ -159,6 +148,18 @@ header ul li a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #81898f;
     color: #ffffff;
+}
+
+.My-Work img {
+    max-height: 200px;
+    opacity: 50%;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+.My-Work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .Contact-Me {
@@ -182,8 +183,6 @@ header ul li a:hover {
     width: 200px;
 }
 
-
-
 .LinkedIn:hover {
     background-color: white;
     opacity: 50%;
@@ -202,35 +201,12 @@ header ul li a:hover {
     margin: 100px;
 }
 
-.Phone {
-    float: left;
-}
-
-.Phone:hover {
-    opacity: 10%;
-    float: left;
-}
-
-
 .About-me img {
     max-height: 200px;
 }
 
-.My-Work img {
-    max-height: 200px;
-    opacity: 50%;
-    justify-content: space-between;
-    margin: 0 50px 0 50px;
-}
-
-
 .Contact-Me img {
     max-height: 200px;
-}
-
-.My-Work h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .Contact-Me h2 {
