@@ -59,6 +59,80 @@ header ul li a:hover {
     float: right;
 }
 
+.My-Work-Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    flex: 70%;
+    float: right;
+    align-items: center;
+}
+
+.flex-box {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex: 45%;
+    height: 300px;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: opacity(0.5);
+    transition: 0.5s;
+    border: #81898f solid 5px;
+}
+
+.first-site {
+    display: flex;
+    flex: 100%;
+    height: 380px;
+    width: 100%;
+    background-image: url(../images/hero-bg.jpg);;
+}
+
+.first-site:hover {
+    filter: opacity(1);
+}
+
+.second-site {
+    background-image: url(../images/digital-marketing-meeting.jpg);
+    width: 45%;
+    flex: 50%;
+}
+
+.second-site:hover {
+    filter: opacity(1);
+}
+
+.third-site {
+    background-image: url(../images/black_cricut_explore_air_2_crop-800x400.jpg);
+    width: 45%;
+}
+
+.third-site:hover {
+    filter: opacity(1);
+}
+
+.fourth-site {
+background-image: url(../images/pexels-fox-1038916.jpg);
+width: 45%;
+}
+
+.fourth-site:hover {
+    filter: opacity(1);
+}
+
+.fifth-site {
+    background-image: url(../images/pexels-wendy-wei-1190297.jpg);
+    width: 45%;
+}
+
+.fifth-site:hover {
+    filter: opacity(1);
+}
+
 .Section-1 p {
     font-size: x-large;
     text-align: center;
@@ -86,6 +160,7 @@ header ul li a:hover {
 }
 
 .About-me {
+    margin-left: 20px;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -94,6 +169,7 @@ header ul li a:hover {
     color: #ffffff;
     text-align: center;
     font-size: 30px;
+    width: 100%;
 }
 
 .headings {
@@ -105,61 +181,36 @@ header ul li a:hover {
     float: left;
     height: 300px;
     width: 275px;
-    margin-left: 50px;
     padding-right: 55px;
     color: white;
     border-right: white solid 7.5px;
     text-align: center;
     font-size: 2em;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 0 0 10px 50px;
 }
 
 .box2 {
     float: left;
-    height: 300px;
+    height: 1060px;
     width: 275px;
-    margin-left: 25px;
     padding-right: 55px;
     color: white;
     border-right: white solid 7.5px;
     text-align: right;
     font-size: 65px;
-    margin-top: 20px;
+    margin: 10px 0 10px 50px;;
 }
 
 .box3 {
     float: left;
     height: 300px;
     width: 275px;
-    margin-left: 25px;
     padding-right: 55px;
     color: white;
     border-right: white solid 7.5px;
     text-align: center;
     font-size: 50px;
-    margin-top: 20px;
-}
-
-.My-Work {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #81898f;
-    color: #ffffff;
-}
-
-.My-Work img {
-    max-height: 200px;
-    opacity: 50%;
-    justify-content: space-between;
-    margin: 0 50px 0 50px;
-}
-
-.My-Work h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin: 10px 0 10px 50px;
 }
 
 .Contact-Me {
@@ -171,6 +222,7 @@ header ul li a:hover {
     color: #ffffff;
     display: flex;
     justify-content: space-evenly;
+    margin-left: 20px;
 }
 
 .Contact-Me h2 {
