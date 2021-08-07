@@ -165,8 +165,6 @@ width: 45%;
     font-weight: bold;
 }
 
-
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -198,7 +196,6 @@ width: 45%;
 .box {
     float: left;
     height: 300px;
-    width: 275px;
     padding-right: 55px;
     color: white;
     border-right: white solid 7.5px;
@@ -210,19 +207,17 @@ width: 45%;
 .box2 {
     float: left;
     height: 1060px;
-    width: 275px;
     padding-right: 55px;
     color: white;
     border-right: white solid 7.5px;
-    text-align: right;
-    font-size: 65px;
+    text-align: center;
+    font-size: 50px;
     margin: 10px 0 10px 50px;;
 }
 
 .box3 {
     float: left;
     height: 300px;
-    width: 275px;
     padding-right: 55px;
     color: white;
     border-right: white solid 7.5px;
@@ -246,6 +241,8 @@ width: 45%;
 .Contact-Me h2 {
     margin-top: 25px;
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
 }
 
 #Contact-me img {
@@ -259,7 +256,7 @@ width: 45%;
 }
 
 .LinkedIn {
-    margin: 100px;
+    margin: 25px;
 }
 
 .GitHub:hover {
@@ -268,7 +265,7 @@ width: 45%;
 }
 
 .Github {
-    margin: 100px;
+    margin: 25px;
 }
 
 .About-me img {
@@ -277,11 +274,6 @@ width: 45%;
 
 .Contact-Me img {
     max-height: 200px;
-}
-
-.Contact-Me h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
@@ -294,3 +286,111 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* MEDIA QUERIES */
+
+@media (max-width: 1212px) {
+    
+    body {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    h1 {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 48px;
+        background: none;
+    }
+    header div {
+        padding: 0;
+        float: none;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+    }
+    .hero {
+      height: 25%;  
+    }
+    .hero h2 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background: border-box;
+    color: white;
+    padding-top: 25px
+    }
+    .box2 {
+        font-size: 45px;
+        height: 930px;
+    }
+    .box3 {
+        font-size: 35px;
+        padding: 0;
+        height: 640px;
+        margin-top: 75px;
+    }
+    div .My-Work-Container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: inline-block;
+    }
+    .first-site {
+        display: flex;
+        flex: 100%;
+        height: 250px;
+        width: 75%;
+        background-image: url(../images/hero-bg.jpg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .second-site {
+        display: flex;
+        flex: 100%;
+        height: 150px;
+        width: 75%;
+        background-image: url(../images/digital-marketing-meeting.jpg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .third-site {
+        display: flex;
+        flex: 100%;
+        height: 150px;
+        width: 75%;
+        background-image: url(../images/black_cricut_explore_air_2_crop-800x400.jpg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fourth-site{
+        display: flex;
+        flex: 100%;
+        height: 150px;
+        width: 75%;
+        background-image: url(../images/pexels-fox-1038916.jpg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fifth-site {
+        display: flex;
+        flex: 100%;
+        height: 150px;
+        width: 75%;
+        background-image: url(../images/pexels-wendy-wei-1190297.jpg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Contact-Me {
+        background: none;
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Contact-me img {
+        margin-left: 300px;
+        display: block;
+    }
+}
+     
