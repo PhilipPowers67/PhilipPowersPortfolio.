@@ -192,6 +192,9 @@ width: 45%;
     display: flex;
     flex-direction: column;
 }
+.headings h2 {
+    font-size: 35px;
+}
 
 .box {
     float: left;
@@ -222,8 +225,12 @@ width: 45%;
     color: white;
     border-right: white solid 7.5px;
     text-align: center;
-    font-size: 50px;
     margin: 10px 0 10px 50px;
+}
+
+.Contact-Me h2 {
+    text-align: center;
+    margin-top: 25px;
 }
 
 .Contact-Me {
@@ -238,12 +245,7 @@ width: 45%;
     margin-left: 20px;
 }
 
-.Contact-Me h2 {
-    margin-top: 25px;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 25px;
-}
+
 
 #Contact-me img {
     height: 200px;
