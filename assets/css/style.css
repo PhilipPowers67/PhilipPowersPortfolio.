@@ -395,4 +395,49 @@ footer h2 {
         display: block;
     }
 }
+
+@media (max-width: 960px) {
+    .About-me {
+        background: none;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0;
+    }
+    .About-me img {
+        display: inline-block;
+        float: none;
+    }
+    #Contact-Me img {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Contact-me img {
+        width: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 75px;
+    }
+    .box3 {
+    margin-left: 15px;
+    font-size: 20px;
+    padding: 0;
+    height: 350px;
+    margin-top: 75px;
+    }
+    .headings h2 {
+        font-size: 20px;
+    }
+    .About-me {
+        margin-bottom: 75px;
+    }
+    .box2 {
+        margin-top: 65px;
+    }
+}
      
