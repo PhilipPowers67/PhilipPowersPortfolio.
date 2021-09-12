@@ -132,12 +132,16 @@ header ul li a:hover {
 }
 
 .third-site {
-    background-image: url(../images/black_cricut_explore_air_2_crop-800x400.jpg);
+    background-image: url(../images/AnytimePortfolio.png);
     width: 45%;
 }
 
 .third-site:hover {
     filter: opacity(1);
+}
+
+.h2-class {
+    color: black;
 }
 
 .fourth-site {
